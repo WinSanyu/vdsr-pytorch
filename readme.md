@@ -44,7 +44,7 @@ python eval.py --cuda --gpus 0 --model checkpoints/...
 
 ## VDSR细节
 
-![srcnn](srcnn,vdsr\srcnn.png)
+![srcnn](srcnn,vdsr/srcnn.png)
 
 |         | SRCNN                        | VDSR                   |
 | ------- | ---------------------------- | ---------------------- |
@@ -53,7 +53,7 @@ python eval.py --cuda --gpus 0 --model checkpoints/...
 | lr      | $10^{-4},10^{-4},10^{-5}$    | $10^{-4}$              |
 | conv    | $9\times9,1\times1,5\times5$ | $3\times3$             |
 
-![vdsr](srcnn,vdsr\vdsr.png)
+![vdsr](srcnn,vdsr/vdsr.png)
 
 * SRCNN主要解决的问题：用CNN解决SR问题。但是它只用了3层的网络
 * VDSR主要解决的问题：用深层的网络（20层）解决SR问题
