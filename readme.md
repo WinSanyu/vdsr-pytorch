@@ -48,10 +48,10 @@ python eval.py --cuda --gpus 0 --model checkpoints/...
 
 |         | SRCNN                        | VDSR                   |
 | ------- | ---------------------------- | ---------------------- |
-| patch   | $33\times33$                 | $41\times41$, 数据增强 |
+| patch   |  (33, 33)                    | (41,41), 数据增强       |
 | padding | no padding                   | pad zeros              |
-| lr      | $10^{-4},10^{-4},10^{-5}$    | $10^{-4}$              |
-| conv    | $9\times9,1\times1,5\times5$ | $3\times3$             |
+| lr      | 10^-4,10^-4,10^-5    | 10^-4             |
+| conv    | $(9,9),(1,1),(5,5) | (3,3)             |
 
 ![vdsr](srcnn,vdsr/vdsr.png)
 
